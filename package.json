@@ -1,0 +1,37 @@
+{
+  "name": "hw04-crud-fetch-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Kevin Chen",
+    "email": "Kunhongchen@umass.edu",
+    "spireid": "33421800"
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "node --inspect src/server/index.js",
+    "submit": "node js/submit.js"
+  },
+  "dependencies": {
+    "@types/pouchdb": "^6.4.2",
+    "archiver": "^6.0.1",
+    "http-server": "^14.1.1",
+    "pouchdb": "^8.0.1",
+    "wordwrapjs": "^5.1.0"
+  }
+}
